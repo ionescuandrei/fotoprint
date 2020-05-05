@@ -58,6 +58,7 @@ export default class Foto_clasic extends Component {
           <Button
             icon={<Icon name="arrow-right" size={30} color="white" />}
             title="Next"
+            onPress={() => this.props.navigation.navigate("PickImageScreen")}
           />
         </View>
       </View>
